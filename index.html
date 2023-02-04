@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, user-scalable=no, width=device-width">
+        <link href="https://kemonoio.github.io/Model_Documentation/css/styles.css" rel="stylesheet">
+        <title>Runa Gears</title>
+    </head>
+    <body>
+        <h1>Runa Gears</h1>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>This package is spinning gear armlets and anklets for the Runa model by Torinyan. You must own the Runa base model to use it.</p>
+        </section>
+        <section id="metrics">
+            <h2>Metrics</h2>
+            <div class="grid">
+                <div>Property</div>
+                <div>Value</div>
+                <div>PC / Quest</div>
+                <div>PC Only</div>
+                <div>Polygons</div>
+                <div>2,084</div>
+                <div>Materials</div>
+                <div>1</div>
+                <div>VRAM</div>
+                <div>~0.7 MB</div>
+            </div>
+        </section>
+        <section id="version-history">
+            <h2>Version History</h2>
+            <div class="grid">
+                <div>Version</div>
+                <div>Date</div>
+                <div>Changes</div>
+                <div>1</div>
+                <div>2023-01-28</div>
+                <div>Initial version.</div>
+            </div>
+        </section>
+        <section id="dependencies">
+            <h2>Dependencies</h2>
+            <ul>
+                <li><a href="https://vrchat.com/download/sdk3-avatars">VRCSDK3-Avatar</a></li>
+                <li><a href="https://booth.pm/en/items/4474266">Runa Base Model</a></li>
+                <li><a href="https://github.com/VRLabs/Avatars-3.0-Manager/releases">Avatars-3.0-Manager</a></li>
+            </ul>
+        </section>
+        <section id="installation">
+            <h2>Installation</h2>
+            <ol>
+                <li>Unpack the dependencies, in order.</li>
+                <li>Unpack Runa_Gears.unitypackage.</li>
+                <li>Drag Assets/Kemono_Io/Runa_Gears.prefab into the Runa_Source object in the Hierarchy panel.<img alt="Instructions 00" height="82" src="images/instructions_00.png" width="124"></li>
+                <li>
+                    Set the Runa_Gears' anchor override.
+                    <ol>
+                        <li>Select the Runa_Gears mesh in the Hierarchy panel.<img alt="Instructions 01 00" height="112" src="images/instructions_01_00.png" width="135"></li>
+                        <li>Drag the hips bone into the Anchor Override in the Inspector panel.<img alt="Instructions 01 01" height="131" src="images/instructions_01_01.png" width="134"><img alt="Instructions 01 02" height="407" src="images/instructions_01_02.png" width="593"></li>
+                    </ol>
+                </li>
+                <li>
+                    Constrain the Runa_Gears's armature to the Runa base model's armature.
+                    <ol>
+                        <li>Fully expand the Runa_Gears object's armature in the Hierarchy panel.<img alt="Instructions 02 00" height="231" src="images/instructions_02_00.png" width="194"></li>
+                        <li>Select one of the bones, such as hips.<img alt="Instructions 02 01" height="49" src="images/instructions_02_01.png" width="109"></li>
+                        <li>Drag the identically-named bone from the Runa base model's armature to the Parent Constraint field in the Inspector panel.<img alt="Instructions 02 02" height="49" src="images/instructions_02_02.png" width="109"><img alt="Instructions 02 03" height="179" src="images/instructions_02_03.png" width="589"></li>
+                        <li>Click the Activate button.</li>
+                        <li>Repeat the last three steps for each bone in the armature.</li>
+                    </ol>
+                </li>
+                <li>
+                    Merge the FX animator controllers.
+                    <ol>
+                        <li>Open the Avatars 3.0 Manager.<img alt="Instructions 03 00" height="48" src="images/instructions_03_00.png" width="662"></li>
+                        <li>Select the Runa_Source object and expand the FX animator.<img alt="Instructions 03 01" height="818" src="images/instructions_03_01.png" width="589"></li>
+                        <li>Click the "Add animator to merge" button.<img alt="Instructions 03 02" height="818" src="images/instructions_03_02.png" width="589"></li>
+                        <li>Select the Runa_Gears_Fx animator and click the "Merge on current" button.<img alt="Instructions 03 03" height="818" src="images/instructions_03_03.png" width="586"></li>
+                    </ol>
+                </li>
+            </ol>
+        </section>
+        <section id="terms">
+            <h2>Terms</h2>
+            <ol>
+                <li>Assets are provided on an as-is basis and the author is not responsible for damages caused through their use.</li>
+                <li>
+                    All authoring rights belong to the author.
+                    <ol>
+                        <li>Buyers may not sell any of the assets in original or modified state.</li>
+                        <li>Buyers may not redistribute any asset.</li>
+                        <li>Buyers may not provide a publically-available version of any asset, including derivative works.</li>
+                    </ol>
+                </li>
+                <li>Personal and commercial use is permitted.</li>
+                <li>Authoring rights on derivative works belong to the author and have the same terms.</li>
+                <li>Buyers are responsible for any terms of usage violations.</li>
+                <li>No support is provided, outside of documentation provided with the assets.</li>
+            </ol>
+        </section>
+    </body>
+</html>
